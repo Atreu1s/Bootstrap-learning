@@ -1,0 +1,17 @@
+.site-header a {
+	color: #c4c2c2;
+	text-decoration: none;
+}
+.site-header a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.product {
+	width: 80%;
+	height: 300px;
+	border-radius: 21px 21px 0 0;
+}
+.container {
+	max-width: 960px;
+}

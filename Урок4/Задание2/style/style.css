@@ -1,0 +1,63 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.fon {
+  position:relative;
+  height: 600;
+  padding-bottom: 50%; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("../images/header_bg.png");
+}
+
+header h2{
+	font-style: italic;
+}
+
+.shadow-d{
+	text-shadow: 6px 4px 18px rgba(150, 150, 149, 1);
+}
+
+.shadow-w{
+	text-shadow: 6px 4px 18px rgba(255, 255, 255, 1);
+}
+
+
+#advantages .item{
+
+width: 150px;
+
+}
+
+@media (max-width: 767px) {
+  header h1{font-size: 3.5em;}
+  header h2{font-size: 1em;}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  header h1 {font-size: 6em;}
+  .bd-placeholder-img-lg {font-size: 3.5rem;}
+}
+@media (min-width: 991px) and (max-width: 1199px) {
+  header h1{font-size: 9em;}
+  .bd-placeholder-img-lg {font-size: 3.5rem;}
+}
+@media (min-width: 1200px) and (max-width: 1700px){
+  header h1{font-size: 12em;}
+  .bd-placeholder-img-lg {font-size: 3.5rem;}
+}
+
+@media (min-width: 1700px) {
+  header h1{font-size: 15em;}
+  .bd-placeholder-img-lg {font-size: 3.5rem;}
+}
+

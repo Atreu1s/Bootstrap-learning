@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+.icon {
+	width: 30px;
+	height: 30px;
+}
+
+.bold {
+	font-weight: 700;
+	letter-spacing: 1.5px;
+}
+
+.bg-black {
+	background: #141414;
+}
+
+/* /// Преимущества LiveTV /// */
+.advantages {
+	padding: 7% 0;
+}
+
+.text-gradient {
+	font-weight: 700;
+	font-size: 40px;
+	color: transparent;
+	-webkit-background-clip: text;
+	background-image: linear-gradient(90deg, #0052d4, #fff);
+}
+
+/* /// Подвал /// */
+.link-icon object {
+	pointer-events: none;
+}
+.link-icon a {
+	display: inline-block;
+}

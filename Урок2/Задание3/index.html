@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Дистанционное обучение</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/style.css"> 
+</head>
+
+<body class="bg-light">
+
+  <div class="sticky-top"> 
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand text-uppercase" href="#">Дистант 1.0</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="personnels.html">Преподавательский состав</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="courses.html">Курсы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Отзывы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="modal" href="#Modal">Вход</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+<header class="bg-light fon border-bottom border-dark border-3 p-10">
+   
+  <div class="container col-xl-10 col-xxl-8 m-10 m-5 h-auto">
+    <div class="row align-items-center g-lg-7 p-10">
+      <div class="col-lg-6 text-center text-lg-start">
+        <h1 class="display-6 fw-bold  text-uppercase bg-dark text-light p-3 t-5 b-1"  >Дистанционное образование</h1>
+        <p class="col-lg-10 fs-4 fw-bold bg-light text-dark p-3 t-3 b-5">Образование для жизни </p>
+      </div>
+      <div class="col-md-10 mx-auto col-lg-5 w-auto">
+        <form class="op d-block m-1 p-1 position-relative">
+          <div class="form-floating d-block m-2 h-auto position-relative">
+            <input type="email" class="form-control rounded-0" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email</label>
+          </div>
+          <div class="form-floating d-block m-2 h-auto">
+            <input type="password" class="form-control rounded-0" id="floatingPassword" placeholder="Пароль">
+            <label for="floatingPassword">Пароль</label>
+          </div>
+          <div class="checkbox d-block m-2 h-auto">
+            <label class="text-dark">
+              <input type="checkbox" class="" value="remember-me"> Запомнить
+            </label>
+          </div>
+          <button class="btn btn-lg  btn-warning rounded-0 d-block m-2 btn-block1" type="submit">Зарегистрироваться</button>
+          <hr class="">
+          <small class="text-dark w-75 m-2 d-block">Нажимая зарегистрироваться, вы принимаете условия использования</small>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  </header>
+
+<section id="popular">
+
+   <div class="album bg-warning p-5">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card rounded-3 shadow-sm">
+            <div class="card-header">
+              <h4 class="fw-normal">Дищайн и верстка</h4>
+            </div>
+
+           <div class="card-body">
+            <h1 class="card-title pricing-card-title">$100<small class="text-muted fw-light">/mo</small></h1>
+            <ul class="list-unstyled">
+              <li>20 уроков</li>
+              <li>2 проекта</li>
+              <li>Консультации</li>
+              <li>Доступ к уникальным материалам</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-outline-dark">Подробнее</button>
+          </div>
+        </div>
+      </div>
+
+        <div class="col">
+          <div class="card rounded-3 shadow-sm">
+            <div class="card-header">
+              <h4 class="fw-normal">Frontend</h4>
+            </div>
+
+           <div class="card-body">
+            <h1 class="card-title pricing-card-title">$120<small class="text-muted fw-light">/mo</small></h1>
+            <ul class="list-unstyled">
+              <li>25 уроков</li>
+              <li>2 проекта</li>
+              <li>Консультации</li>
+              <li>Доступ к уникальным материалам</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-outline-dark">Подробнее</button>
+          </div>
+        </div>
+      </div>
+        <div class="col">
+          <div class="card rounded-3 shadow-sm">
+            <div class="card-header">
+              <h4 class="fw-normal">Backend</h4>
+            </div>
+
+           <div class="card-body">
+            <h1 class="card-title pricing-card-title">$150<small class="text-muted fw-light">/mo</small></h1>
+            <ul class="list-unstyled">
+              <li>30 уроков</li>
+              <li>3 проекта</li>
+              <li>Консультации</li>
+              <li>Доступ к уникальным материалам</li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-outline-dark">Подробнее</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</section>
+
+
+<section id="form" class="bg-dark">
+  <div class="container">
+    <form class="form-control-lg p-5">
+      <div class="input-group">
+        <span class="input-group-text bg-warning text-dark form-control-lg" id="basic-addon1">@</span>
+        <input type="text" class="form-control" placeholder="Будьте в курсе последних новостей" aria-label="E-mail" aria-describedby="basic-addon1">
+        <button class="btn btn-outline-warning form-control-lg" type="button" id="inputGroupFileAddon04">Sub</button>
+      </div>
+    </form>
+  </div>
+  </section> 
+ 
+<!-- Three columns of text below the carousel -->
+   <section id="about" class="container container-fluid justify-content-center align-items-beetwen text-center p-5">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-12">
+        <img src="images/people/1.jpg" class="bd-placeholder-img rounded-circle" width="200" height="200" alt="student_photo">
+        <h4>Анна <br> <em>студентка</em></h4>
+        <p>Отличные курсы! Замечательные преподаватели! Супер цены!</p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-12">
+        <img src="images/people/2.jpg" class="bd-placeholder-img rounded-circle" width="200" height="200" alt="student_photo">
+        <h4>Константин <br> <em>школьник</em></h4>
+        <p>Отличные курсы! Замечательные преподаватели! Супер цены!</p>
+
+      </div>
+      <div class="col-lg-3 col-md-6 col-12">
+        <img src="images/people/3.jpg" class="bd-placeholder-img rounded-circle" width="200" height="200" alt="student_photo">
+        <h4>Иван <br> <em>преподаватель</em></h4>
+        <p>Отличные курсы! Замечательные преподаватели! Супер цены!</p>
+
+      </div>
+      <div class="col-lg-3 col-md-6 col-12">
+        <img src="images/people/4.jpg" class="bd-placeholder-img rounded-circle" width="200" height="200" alt="student_photo">
+        <h4>Ольга <br> <em>домохозяйка</em></h4>
+        <p>Отличные курсы! Замечательные преподаватели! Супер цены!</p>
+      </div>
+    </div>
+</section>
+
+
+
+  <footer class="footer bg-dark text-light">
+    <div class="container">
+
+     <div class="row align-items-top p-3">
+        <div class="col-md-4 col-12 text-center">   
+          <nav class="navbar navbar-dark text-center ">
+            <div class="container-fluid justify-content-center">
+                <ul class="navbar-nav ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="personnels.html">Преподавательский состав</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="courses.html">Курсы</a>
+                  </li>
+                </ul>
+            </div>
+          </nav>
+        </div>
+
+        <div class="col-md-4 col-12 text-light text-center ">
+            <ul class="list-unstyled">
+              <li>Адрес: </li>
+              <li>E-mail: sample@gmail.com</li>
+              <li>Тел: +7-999-99-99</li>
+              <li> +7-999-99-99</li>
+            </ul>
+           <ul class="list-unstyled list-inline">
+                <li class="list-inline-item"><a href=""> <i class="fa fa-facebook-square  fa-2x fa-fw"></i></a></li>
+                <li class="list-inline-item"><a href=""> <i class="fa fa-instagram  fa-2x fa-fw"></i></a></li>
+                <li class="list-inline-item"><a href=""> <i class="fa fa-vk  fa-2x fa-fw"></i></a></li>
+                <li class="list-inline-item"><a href=""> <i class="fa fa-twitter  fa-2x fa-fw"></i></a></li>
+              </ul>
+           
+       </div>
+        <div class="col-md-4 col-12 text-light">
+         <h1 class="text-uppercase text-center">Дистант 1.0</h1>
+       </div>
+     </div>
+
+     <div class="text-center text-light">
+      <span class="text-muted text-light">При создании страницы использованы изображения с сайта <a href="https://ru.freepik.com/" class="text-reset">ru.freepik.com</a>, <a href="https://pixabay.com/" class="text-reset">https://pixabay.com/</a> и <a href="https://www.firestock.ru" class="text-reset">https://www.firestock.ru/</a></span>
+    </div>
+
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

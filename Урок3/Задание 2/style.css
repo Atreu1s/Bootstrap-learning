@@ -1,0 +1,27 @@
+a {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+	text-align: center;
+	font-weight: bolder;
+}
+
+
+header .container {
+	height: 80px;
+}
+
+section.banner {
+	min-height: 70vh;
+	background-image: url("media/images/optimize.webp");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+
+.icon {
+	width: 250px;
+}
